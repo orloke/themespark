@@ -7,11 +7,10 @@ base theme: classy
 screenshot: simplesmartscreenshot.png
 regions:
   header: Header
-  simplesmartmenu: Navigation
   content: Content
   footer: Footer
   page_top: Page Top
   page_bottom: Page Bottom
 libraries:
   - simplesmart/global-css
-  - simplesmart/pacifico
+  - simplesmart/metalMania

@@ -42,17 +42,17 @@
  * @see html.html.twig
  */
 #}
-<div class="layout-container">
+
+{# <div class="layout-container">
 
   <header role="banner">
     {{ page.header }}
   </header>
 
-  {% if page.simplesmartmenu %}
-    <div id="simplesmartmenu" class="content">
-      {{ page.simplesmartmenu }}
-    </div>
-  {% endif %}
+
+  <div id="simplesmartmenu" class="content">
+    <p>Olá a todos</p>
+  </div>
 
   {{ page.breadcrumb }}
 
@@ -61,11 +61,11 @@
   {{ page.help }}
 
   <main role="main">
-    <a id="main-content" tabindex="-1"></a>{# link is in html.html.twig #}
+    <a id="main-content" tabindex="-1"></a>
 
     <div class="layout-content">
       {{ page.content }}
-    </div>{# /.layout-content #}
+    </div>
 
     {% if page.sidebar_first %}
       <aside class="layout-sidebar-first" role="complementary">
@@ -87,4 +87,38 @@
     </footer>
   {% endif %}
 
-</div>{# /.layout-container #}
+</div> #}
+
+<div class = "layout">
+
+  <header>
+    <img class="logo" src="https://themespark.ddev.site/themes/custom/simplesmart/logo.png" />
+    <div class="container-buttons" >
+      <button class="button-home">INTRODUÇÃO</button>
+      <button class="button-home">CONTATO</button>
+    </div>
+    <div class="page-name">
+      <p>Introdução</p>
+      <img src="https://themespark.ddev.site/themes/custom/simplesmart/borderBottom.png" />
+    </div>
+  </header>
+
+  <main>
+    <p>
+      Somos uma produtora digital que desenvolve tecnologia e viabiliza
+      outsourcing de equipes de alto padrão, preparadas para atuar em
+      projetos de marcas globais.
+      <br />
+      <br />
+      Veja alguns de nossos parceiros:
+    </p>
+    <div class="partners">
+      <img src="https://themespark.ddev.site/themes/custom/simplesmart/brivia.png" />
+      <img src="https://themespark.ddev.site/themes/custom/simplesmart/hogarth.png" />
+      <img src="https://themespark.ddev.site/themes/custom/simplesmart/just.png" />
+      <img src="https://themespark.ddev.site/themes/custom/simplesmart/squadra.png" />
+      <img src="https://themespark.ddev.site/themes/custom/simplesmart/wpp.png" />
+    </div>
+  </main>
+
+</div>
