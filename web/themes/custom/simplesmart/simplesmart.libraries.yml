@@ -13,3 +13,6 @@ metalMania:
     theme:
       //fonts.googleapis.com/css2?family=Metal+Mania: { type: external }
       css/styles.css: {}
+global-scripts:
+  js:
+    js/script.js: {}

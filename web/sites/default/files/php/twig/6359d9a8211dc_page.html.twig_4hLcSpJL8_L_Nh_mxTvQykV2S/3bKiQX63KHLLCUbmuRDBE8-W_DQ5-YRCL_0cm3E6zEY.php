@@ -46,7 +46,7 @@ class __TwigTemplate_552af85800fdc934164736400d97d67d68ca9a51d71ae45afc804c1359e
     <img class=\"logo\" src=\"https://themespark.ddev.site/themes/custom/simplesmart/logo.png\" />
     <div class=\"container-buttons\" >
       <button class=\"button-home\">INTRODUÇÃO</button>
-      <button class=\"button-home\">CONTATO</button>
+      <button class=\"button-contact\">CONTATO</button>
     </div>
     <div class=\"page-name\">
       <p>Introdução</p>
@@ -185,7 +185,7 @@ class __TwigTemplate_552af85800fdc934164736400d97d67d68ca9a51d71ae45afc804c1359e
     <img class=\"logo\" src=\"https://themespark.ddev.site/themes/custom/simplesmart/logo.png\" />
     <div class=\"container-buttons\" >
       <button class=\"button-home\">INTRODUÇÃO</button>
-      <button class=\"button-home\">CONTATO</button>
+      <button class=\"button-contact\">CONTATO</button>
     </div>
     <div class=\"page-name\">
       <p>Introdução</p>
