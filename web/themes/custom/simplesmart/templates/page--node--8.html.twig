@@ -48,8 +48,23 @@
 
 	{% include '/themes/custom/simplesmart/templates/Header/header.html.twig' %}
 
-	<main>
-    
+	<main class="contact">
+		<img src="themes/custom/simplesmart/contact.jpg"/>
+		<form>
+			<div class="user-dates">
+
+				<input id="username" name="username" type="text" placeholder="Nome*" class = "input-form" required/>
+
+				<input id="email" name="email" type="email" placeholder="Email*" class = "input-form" required/>
+
+				<textarea id="observation" name="observation" type="textarea" rows='5' placeholder="Escreva sua mensagem*" class = "input-form" required></textarea>
+
+				<button class="button-layout button-form" type="submit" >
+					Enviar
+				</button>
+
+			</div>
+		</form>
 	</main>
 
 </div>
