@@ -7,7 +7,6 @@ html {
   height: 100%;
 }
 body {
-  min-height: 100%;
   line-height: 1.5;
   word-wrap: break-word;
   font-size: 87.5%;
@@ -22,7 +21,7 @@ img {
 }
 ul, ol {
   margin: 0;
-  padding: 0 0 0.25em 1em; /* LTR */
+  padding: 0; /* LTR */
 }
 [dir="rtl"] ul,
 [dir="rtl"] ol {
@@ -31,7 +30,7 @@ ul, ol {
 ol ol,
 ul ul {
   margin: 0;
-  padding: 0 0 0.25em 1em; /* LTR */
+  padding: 0;
 }
 [dir="rtl"] ol ol,
 [dir="rtl"] ul ul {
