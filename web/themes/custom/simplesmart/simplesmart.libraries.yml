@@ -5,12 +5,23 @@ global-css:
       css/elements.css: {}
       css/layout.css: {}
       css/menu.css: {}
-      css/form.css: {}
-      https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css: { type: external, minified: true }
-
+      https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css:
+        { type: external, minified: true }
 
 global-scripts:
   js:
     js/script.js: {}
-    https://kit.fontawesome.com/4316daf650.js: {type: external, minified: false}
-    https://cdn.jsdelivr.net/npm/toastify-js: {type: external, minified: false}
+    https://kit.fontawesome.com/4316daf650.js:
+      { type: external, minified: false }
+    https://cdn.jsdelivr.net/npm/toastify-js:
+      { type: external, minified: false }
+
+
+contact-css:
+  css:
+    theme:
+      css/contact.css: {}
+
+contact-scripts:
+  js:
+    js/contact.js: {}

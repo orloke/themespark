@@ -43,8 +43,10 @@
  */
 #}
 
+{{ attach_library('simplesmart/contact-scripts') }}
+{{ attach_library('simplesmart/contact-css') }}
 
-<div class="layout">
+<div {{attributes}} class="layout">
 
 	{% include '/themes/custom/simplesmart/templates/Header/header.html.twig' %}
 

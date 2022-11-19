@@ -10,5 +10,4 @@ regions:
   content: Content
 libraries:
   - simplesmart/global-css
-  - simplesmart/metalMania
   - simplesmart/global-scripts
