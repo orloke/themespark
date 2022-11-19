@@ -113,6 +113,7 @@ main p {
   main {
     width: 85%;
     margin-bottom: 2rem;
+    height: auto;
   }
   .container-buttons {
     flex-direction: column;
@@ -122,5 +123,6 @@ main p {
   .partners {
     row-gap: 3rem;
     margin-top: 2rem;
+    justify-content: center;
   }
 }

@@ -12,8 +12,8 @@ use Twig\Sandbox\SecurityNotAllowedFunctionError;
 use Twig\Source;
 use Twig\Template;
 
-/* themes/custom/simplesmart/templates/page--node--8.html.twig */
-class __TwigTemplate_12e34942d0a32934da53b5abaf3c19d06d333b81a8f28932f64ecefadadb094c extends \Twig\Template
+/* themes/custom/simplesmart/templates/page--front.html.twig */
+class __TwigTemplate_319f6a294ea1dafb17b6d9c771026cf3eaf51d9fdf5067964298bcfd78e2a6be extends \Twig\Template
 {
     private $source;
     private $macros = [];
@@ -39,29 +39,25 @@ class __TwigTemplate_12e34942d0a32934da53b5abaf3c19d06d333b81a8f28932f64ecefadad
         echo "
 
 <div class=\"layout\">
-
 \t";
+        // line 48
+        $this->loadTemplate("/themes/custom/simplesmart/templates/Header/header.html.twig", "themes/custom/simplesmart/templates/page--front.html.twig", 48)->display($context);
         // line 49
-        $this->loadTemplate("/themes/custom/simplesmart/templates/Header/header.html.twig", "themes/custom/simplesmart/templates/page--node--8.html.twig", 49)->display($context);
-        // line 50
         echo "
-\t<main class=\"contact\">
-\t\t<img src=\"themes/custom/simplesmart/contact.jpg\"/>
-\t\t<form>
-\t\t\t<div class=\"user-dates\">
-
-\t\t\t\t<input id=\"username\" name=\"username\" type=\"text\" placeholder=\"Nome*\" class = \"input-form\" required/>
-
-\t\t\t\t<input id=\"email\" name=\"email\" type=\"email\" placeholder=\"Email*\" class = \"input-form\" required/>
-
-\t\t\t\t<textarea id=\"observation\" name=\"observation\" type=\"textarea\" rows='5' placeholder=\"Escreva sua mensagem*\" class = \"input-form\" required></textarea>
-
-\t\t\t\t<button class=\"button-layout button-form\" type=\"submit\" >
-\t\t\t\t\tEnviar
-\t\t\t\t</button>
-
-\t\t\t</div>
-\t\t</form>
+\t<main>
+\t\t<p>
+\t\t\tSomos uma produtora digital que desenvolve tecnologia e viabiliza outsourcing de equipes de alto padrão, preparadas para atuar em projetos de marcas globais.
+\t\t\t<br/>
+\t\t\t<br/>
+\t\t\tVeja alguns de nossos parceiros:
+\t\t</p>
+\t\t<div class=\"partners\">
+\t\t\t<img src=\"themes/custom/simplesmart/brivia.png\"/>
+\t\t\t<img src=\"themes/custom/simplesmart/hogarth.png\"/>
+\t\t\t<img src=\"themes/custom/simplesmart/just.png\"/>
+\t\t\t<img src=\"themes/custom/simplesmart/squadra.png\"/>
+\t\t\t<img src=\"themes/custom/simplesmart/wpp.png\"/>
+\t\t</div>
 \t</main>
 
 </div>
@@ -70,7 +66,7 @@ class __TwigTemplate_12e34942d0a32934da53b5abaf3c19d06d333b81a8f28932f64ecefadad
 
     public function getTemplateName()
     {
-        return "themes/custom/simplesmart/templates/page--node--8.html.twig";
+        return "themes/custom/simplesmart/templates/page--front.html.twig";
     }
 
     public function isTraitable()
@@ -80,7 +76,7 @@ class __TwigTemplate_12e34942d0a32934da53b5abaf3c19d06d333b81a8f28932f64ecefadad
 
     public function getDebugInfo()
     {
-        return array (  47 => 50,  45 => 49,  39 => 45,);
+        return array (  46 => 49,  44 => 48,  39 => 45,);
     }
 
     public function getSourceContext()
@@ -132,35 +128,31 @@ class __TwigTemplate_12e34942d0a32934da53b5abaf3c19d06d333b81a8f28932f64ecefadad
 
 
 <div class=\"layout\">
-
 \t{% include '/themes/custom/simplesmart/templates/Header/header.html.twig' %}
 
-\t<main class=\"contact\">
-\t\t<img src=\"themes/custom/simplesmart/contact.jpg\"/>
-\t\t<form>
-\t\t\t<div class=\"user-dates\">
-
-\t\t\t\t<input id=\"username\" name=\"username\" type=\"text\" placeholder=\"Nome*\" class = \"input-form\" required/>
-
-\t\t\t\t<input id=\"email\" name=\"email\" type=\"email\" placeholder=\"Email*\" class = \"input-form\" required/>
-
-\t\t\t\t<textarea id=\"observation\" name=\"observation\" type=\"textarea\" rows='5' placeholder=\"Escreva sua mensagem*\" class = \"input-form\" required></textarea>
-
-\t\t\t\t<button class=\"button-layout button-form\" type=\"submit\" >
-\t\t\t\t\tEnviar
-\t\t\t\t</button>
-
-\t\t\t</div>
-\t\t</form>
+\t<main>
+\t\t<p>
+\t\t\tSomos uma produtora digital que desenvolve tecnologia e viabiliza outsourcing de equipes de alto padrão, preparadas para atuar em projetos de marcas globais.
+\t\t\t<br/>
+\t\t\t<br/>
+\t\t\tVeja alguns de nossos parceiros:
+\t\t</p>
+\t\t<div class=\"partners\">
+\t\t\t<img src=\"themes/custom/simplesmart/brivia.png\"/>
+\t\t\t<img src=\"themes/custom/simplesmart/hogarth.png\"/>
+\t\t\t<img src=\"themes/custom/simplesmart/just.png\"/>
+\t\t\t<img src=\"themes/custom/simplesmart/squadra.png\"/>
+\t\t\t<img src=\"themes/custom/simplesmart/wpp.png\"/>
+\t\t</div>
 \t</main>
 
 </div>
-", "themes/custom/simplesmart/templates/page--node--8.html.twig", "/var/www/html/web/themes/custom/simplesmart/templates/page--node--8.html.twig");
+", "themes/custom/simplesmart/templates/page--front.html.twig", "/var/www/html/web/themes/custom/simplesmart/templates/page--front.html.twig");
     }
     
     public function checkSecurity()
     {
-        static $tags = array("include" => 49);
+        static $tags = array("include" => 48);
         static $filters = array();
         static $functions = array();
 

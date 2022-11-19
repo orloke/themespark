@@ -39,6 +39,7 @@ class __TwigTemplate_0fdc9ad042cf88d555ad788b1e672b35f5a9439c827b0539d6320503dfa
         echo "<input type=\"checkbox\" name=\"\" id=\"input-menu\">
 <nav class=\"navbar\">
 \t<div class=\"navbar-menu-logo\">
+\t\t<input type=\"checkbox\" name=\"\" id=\"input-menu\">
 \t\t<label class=\"hamburger-lines\" for=\"input-menu\">
 \t\t\t<span class=\"line line1\"></span>
 \t\t\t<span class=\"line line2\"></span>
@@ -81,6 +82,7 @@ class __TwigTemplate_0fdc9ad042cf88d555ad788b1e672b35f5a9439c827b0539d6320503dfa
         return new Source("<input type=\"checkbox\" name=\"\" id=\"input-menu\">
 <nav class=\"navbar\">
 \t<div class=\"navbar-menu-logo\">
+\t\t<input type=\"checkbox\" name=\"\" id=\"input-menu\">
 \t\t<label class=\"hamburger-lines\" for=\"input-menu\">
 \t\t\t<span class=\"line line1\"></span>
 \t\t\t<span class=\"line line2\"></span>
