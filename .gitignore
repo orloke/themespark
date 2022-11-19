@@ -11,6 +11,7 @@
 /web/sites/*
 !/web/sites/default/
 !/web/sites/example.sites.php
+/vendor/
 
 # Ignore IDE files
 /.idea/
@@ -36,6 +37,10 @@ node_modules
 /MAINTAINERS.txt
 /UPGRADE.txt
 /README.txt
-sites/README.txt
-sites/all/modules/README.txt
-sites/all/themes/README.txt
+/web/sites/README.txt
+/web/sites/all/modules/README.txt
+/web/sites/all/themes/README.txt
+/web/sites/*/settings*.php
+/web/sites/*/settings*.yml
+/web/sites/*/files
+/web/sites/*/private
